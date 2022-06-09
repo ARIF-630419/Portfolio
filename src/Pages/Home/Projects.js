@@ -6,13 +6,13 @@ const Projects = () => {
     const navigate2 = useNavigate();
     const navigate3 = useNavigate();
     const navigateToDetails1 = () => {
-        navigate1("/purchase");
+        navigate1("/ComputerPartsManufacture");
     }
     const navigateToDetails2 = () => {
-        navigate2("/purchase");
+        navigate2("/ComputerWarehouse");
     }
     const navigateToDetails3 = () => {
-        navigate3("/purchase");
+        navigate3("/DoctorServiceProvider");
     }
     return (
         <section>

@@ -6,7 +6,7 @@ const Contact = () => {
             <h1 className='text-center text-4xl text-lime-500 pt-12 pb-5'>Contact Us</h1>
             <div className='w-3/4 mx-auto m-10'>
                 <h2 className='m-3 text-2xl'>Let's Talk !!</h2>
-                <h2 className='m-3 text-xl'>If you have any other request or question, don't hesitate to contact me usint this forms.</h2>
+                <h2 className='m-3 text-xl'>If you have any other requests or questions, don't hesitate to contact me using this form.</h2>
                 <form action="https://formspree.io/f/mvolyroa" method="POST">
                     <input type="text" placeholder="Enter Your Name" name='name' className="input input-bordered input-primary w-full mb-3 " />
                     <input type="email" placeholder="Enter your Email" name='email' className="input input-bordered input-primary w-full mb-3 " />

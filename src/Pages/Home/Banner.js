@@ -8,7 +8,7 @@ const Banner = () => {
                     <div className="card-body ">
                         <h2 className="text-2xl  text-black"><span className='font-bold'>Hi,</span>{ }</h2>
                         <h2 className="text-2xl  text-black"><span className='font-bold'>I'm Md. Ariful Islam</span>{ }</h2>
-                        <h2 className="text-xl  text-black"><span className='font-bold'>Web Devloper</span>{ }</h2>
+                        <h2 className="text-xl  text-black"><span className='font-bold'>Web Developer</span>{ }</h2>
                         <p className="  text-black text-justify"> <span className=''>I build interative website that run across platform and devices.</span> { }</p>
                     </div>
                 </div>

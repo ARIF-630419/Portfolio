@@ -1,5 +1,9 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
+import project1 from '../../Image/cp1.jpg'
+import project2 from '../../Image/cw1.jpg'
+import project3 from '../../Image/ds1.jpg'
+
 
 const Projects = () => {
     const navigate1 = useNavigate();
@@ -20,7 +24,7 @@ const Projects = () => {
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5'>
                 <div className="card lg:max-w-lg bg-base-100 shadow-xl">
                     <div className="card-body ">
-
+                        <img src={project1} alt="imgage" className='h-44'></img>
                         <h2 className="text-xl  text-black"><span className='font-bold'>Project Name: Computer Parts Manufacture</span></h2>
                         <h2 className=" text-black"> <span className='font-bold'>Description: </span></h2>
                         <p>1. The user must login if he wants to purchase any parts.</p>
@@ -32,7 +36,7 @@ const Projects = () => {
                 </div>
                 <div className="card lg:max-w-lg bg-base-100 shadow-xl">
                     <div className="card-body ">
-
+                        <img src={project2} alt="imgage" className='h-44'></img>
                         <h2 className="text-xl  text-black"><span className='font-bold'>Project Name: Computer Warehouse </span></h2>
                         <h2 className=" text-black"> <span className='font-bold'>Description: </span></h2>
                         <p>1. If the user is logged in, Navbar will show some menus. These are Manage Item,Add Item, Home, Blogs, and My Items.</p>
@@ -44,7 +48,7 @@ const Projects = () => {
                 </div>
                 <div className="card lg:max-w-lg bg-base-100 shadow-xl">
                     <div className="card-body ">
-
+                        <img src={project3} alt="imgage" className='h-44'></img>
                         <h2 className="text-xl  text-black"><span className='font-bold'>Project Name: Doctor Service Provider</span></h2>
                         <h2 className=" text-black"> <span className='font-bold'>Description: </span></h2>
                         <p>1. The user must login if he wants to checkout page.</p>

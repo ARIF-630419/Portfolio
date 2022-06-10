@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import resume from '../../Resume/Md. Ariful Islam Resume.pdf'
 
 const Navbar = () => {
     const menuItems = <>
@@ -16,7 +17,7 @@ const Navbar = () => {
                     </label>
                     <ul tabIndex="0" className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         {menuItems}
-                        <li><a href="https://drive.google.com/file/d/18TyIptQPbyKriclFw2rLGVCqBUzaws33/view?usp=sharing" target="_blank">Download Resume</a></li>
+                        <li><a href={resume} target="_blank" download>Download Resume</a></li>
                     </ul>
                 </div>
                 <li className='my-2 btn btn-ghost normal-case text-2xl'><Link to="/">Md. Ariful Islam</Link></li>
@@ -25,7 +26,7 @@ const Navbar = () => {
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
                     {menuItems}
-                    <li><a href="https://drive.google.com/file/d/18TyIptQPbyKriclFw2rLGVCqBUzaws33/view?usp=sharing" target="_blank">Download Resume</a></li>
+                    <li><a href={resume} target="_blank" download>Download Resume</a></li>
                 </ul>
             </div>
         </div>

@@ -4,7 +4,7 @@ import Projects from './Projects';
 
 const Home = () => {
     return (
-        <div>
+        <div className='relative'>
             <Banner></Banner>
             <Projects></Projects>
         </div>

@@ -35,7 +35,7 @@ const ComputerWarehouse = () => {
                         <p>4. The user add any item to the add item menu.</p>
                         <p>5. When users go to my items menu, they will be able to see all the added items.</p>
                         <h2 className=" text-black"> <span className='font-bold'>Technology Used:
-                        </span>React, Bootstrap5, react-dom, firebase, react-firebase-hooks, react-query, reactrouter-dom, jwt, JavaScript, express.js, MongoDB.</h2>
+                        </span> React, Bootstrap5, react-dom, firebase, react-firebase-hooks, react-query, reactrouter-dom, jwt, JavaScript, express.js, MongoDB.</h2>
                     </div>
                 </div>
                 <div>

@@ -7,6 +7,7 @@ const Navbar = () => {
         <li className='my-2'><Link to="/home">Home</Link></li>
         <li className='my-2'><Link to="/about">About</Link></li>
         <li className='my-2'><Link to="/contact">Contact</Link></li>
+        <li className='my-2'><Link to="/blog">Blogs</Link></li>
     </>
     return (
         <div className="navbar bg-base-300  text-2xl mb-3 rounded-xl sticky top-0 z-50">

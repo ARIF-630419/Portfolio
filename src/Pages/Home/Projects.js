@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import project1 from '../../Image/cp1.jpg'
-import project2 from '../../Image/cw1.jpg'
-import project3 from '../../Image/ds1.jpg'
+import project1 from '../../Image/cp1.PNG'
+import project2 from '../../Image/cw1.PNG'
+import project3 from '../../Image/ds1.PNG'
 
 
 const Projects = () => {
